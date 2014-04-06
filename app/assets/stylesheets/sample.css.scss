@@ -1,0 +1,28 @@
+// Place all the styles related to the sample controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#pageContainer{
+	width: 1500px;
+    height: 600px;        
+}
+
+#board {
+    width: 400px;
+    height: 400px;        
+	float: left;
+}
+
+
+ #tile1, #tile2, #tile3, #tile4, #tile5, #tile6, #tile7, #tile8, #tile9, #tile10, #tile11, #tile12, #tile13, #tile14, #tile15, #tile16{
+    outline: 1px solid red;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+#arrows{
+    float: left;
+    height: 100px;
+    width: 400px;    
+}
