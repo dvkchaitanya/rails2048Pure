@@ -1,9 +1,15 @@
 <h1>Sample#dummy</h1>
 <p>Find me in app/views/sample/dummy.html.erb</p>
-<div id="board"></div>
+<div id="gameContainer"> </div>
 
 <script id="tileId" type="text/template">
-	<div>example data  {{= div_id }} </div>	
+	<div>   {{= tile_content}} </div>	
+</script>
+<script id="arrowTempl" type="text/template">
+	<button id="left">left</button>
+	<button id="right">right</button>
+	<button id="up">up</button>
+	<button id="down">down</button>
 </script>
 <%=javascript_include_tag "rails2048Pure" %>
 <%=stylesheet_link_tag "sample" %>
